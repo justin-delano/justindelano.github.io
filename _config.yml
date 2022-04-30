@@ -18,23 +18,65 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Justin Delano
+title: "Justin Delano"
 email: jddelano056[at]gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   First Year Ph.D. student studying Bioinformatics and Integrative Genomics at Harvard Medical School
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://justindelano.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: justindelano_
-github_username:  justin-delano
+logo: favicon.ico
 
 # Build settings
-remote_theme: gaalcaras/academic
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
-  - jekyll-feed
   - jekyll-include-cache
   - jekyll-remote-theme
 
-title_html: "<b>Justin Delano</b>"
+include: ["_includes", "_pages"]
+
+minimal_mistakes_skin: dark
+search: true
+atom_feed:
+  hide: true
+
+author:
+  name        : "Justin Delano"
+  bio         : "First Year Ph.D. student studying Bioinformatics and Integrative Genomics at Harvard Medical School"
+  avatar      : "/assets/images/BW Picture.JPG"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jdelano@g.harvard.edu"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/justindelano_"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/justin-delano-337394156/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github/com/justin-delano"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/justindelano_"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/justin-delano-337394156/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github/com/justin-delano"
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

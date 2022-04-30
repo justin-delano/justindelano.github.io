@@ -1,0 +1,17 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+$background-color: #30363d;
+$primary-color: #58a6ff;
+$link-color: #58a6ff;
+
+// $link-color: mix(#000, $info-color, 20%) !default;
+// $link-color-hover: $link-color;
+// $link-color-visited: mix(#fff, $link-color, 15%) !default;
+// $masthead-link-color: $primary-color !default;
+// $masthead-link-color-hover: mix(#000, $primary-color, 25%) !default;
+// $navicon-link-color-hover: $link-color;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
