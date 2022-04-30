@@ -67,7 +67,7 @@ footer:
       url: "https://www.linkedin.com/in/justin-delano-337394156/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github/com/justin-delano"
+      url: "https://github.com/justin-delano"
 
 defaults:
   # _pages
