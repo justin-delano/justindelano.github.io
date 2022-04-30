@@ -28,6 +28,7 @@ twitter_username: justindelano_
 github_username:  justin-delano
 
 # Build settings
+theme: academic
 remote_theme: gaalcaras/academic
 plugins:
   - jekyll-feed
