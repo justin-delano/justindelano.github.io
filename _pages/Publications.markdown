@@ -2,4 +2,4 @@
 title:  "Publications"
 permalink: /publications/
 ---
-Under Construction
+{% include publications link=true %}
