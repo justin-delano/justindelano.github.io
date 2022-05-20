@@ -42,7 +42,7 @@ atom_feed:
 author:
   name        : "Justin Delano"
   bio         : "First Year Ph.D. student studying Bioinformatics and Integrative Genomics at Harvard Medical School"
-  avatar      : "/assets/images/BW Picture.JPG"
+  avatar      : "/assets/images/BW_Profile.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
