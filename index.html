@@ -1,4 +1,37 @@
 ---
+title: "Justin Delano"
 layout: splash
-author_profile: true
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.25"
+  overlay_image: /assets/images/DNABanner.png
+
+excerpt: "First Year Ph.D. student studying Bioinformatics and Integrative Genomics at Harvard Medical School"
+
+feature_row:
+  - image_path: assets/images/BW Picture.jpg
+    alt: "About"
+    title: ""
+    url: "about"
+    btn_label: "About Me"
+    btn_class: "btn--primary"
+
+  - image_path: /assets/images/LaptopIcon.jpg
+    alt: "Projects"
+    title: ""
+    url: "projects"
+    btn_label: "My Projects"
+    btn_class: "btn--primary"
+
+  - image_path: /assets/images/PaperIcon.jpg
+    alt: "Publications"
+    title: ""
+    url: "publications"
+    btn_label: "My Publications"
+    btn_class: "btn--primary"
+
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
