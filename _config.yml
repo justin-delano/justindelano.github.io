@@ -32,7 +32,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
 
-include: ["_includes", "_pages"]
+include: ["_includes", "_pages", "_layouts"]
 
 minimal_mistakes_skin: dark
 search: false
