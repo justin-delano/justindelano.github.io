@@ -6,26 +6,5 @@ $background-color: #30363d;
 $primary-color: #58a6ff;
 $link-color: #58a6ff;
 
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    // justify-content: space-around;
-    align-items: center;
-    // gap: 12px;
-
-  }
-
-@media only screen and (max-width: 900px) { //Set desired width to call 'mobile'
-    .flex-container {
-        display: flex;
-        flex-wrap: wrap;
-        // justify-content: space-evenly;
-        align-items: center;
-        // flex-direction: column;
-        // gap: 24px;
-        
-    }
-  }
-img {max-width:100%;}
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
