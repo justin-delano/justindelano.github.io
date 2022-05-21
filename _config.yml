@@ -18,12 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Justin Delano"
-email: jddelano056[at]gmail.com
+title: Justin Delano
+email: jdelano[at]g.harvard.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  First Year Ph.D. student studying Bioinformatics and Integrative Genomics at Harvard Medical School.
+  First Year Ph.D. student studying Bioinformatics and Integrative Genomics at Harvard Medical School
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://justindelano.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: http://justindelano.com # the base hostname & protocol for your site, e.g. http://example.com
+teaser: /assets/images/SingleDNA.png
 logo: favicon.ico
 
 # Build settings
