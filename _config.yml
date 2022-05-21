@@ -79,6 +79,9 @@ defaults:
     values:
       layout: single
       author_profile: true
+      header:
+        og_image: /assets/images/SingleDNA.png
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
